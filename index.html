@@ -1,0 +1,186 @@
+
+
+<!DOCTYPE html>
+<html>
+<title>Grace Robbins</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <!-- <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div> -->
+    <div class="w3-col s4">
+      <a href="#about" class="w3-button w3-block w3-black" style="">ABOUT ME</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="#menu" class="w3-button w3-block w3-black">EXPERIENCE</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="#where" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<!-- <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">15 Adr street, 5015</span>
+  </div>
+</header> -->
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-large" style="background-color:#eaf3fb!important">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-16"><span class="w3-tag w3-wide">   </span></h5>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHO I AM</span></h5>
+    <p>I'm Grace Robbins, a freshman in computer science studying at the University of Illinois at Urbana-Champaign.
+        I love math and all things computer-related, with a special interest in machine learning, theory, and architecture.
+    </p>
+    <p>Outside of academics, I'm an avid cross country runner and horseback rider, enjoy reading science fiction and
+      philosophy in my free time, and take every chance I get to practice my Spanish skills. My favorite musicians include
+      Hozier, J Balvin, Tor Miller, and many others (feel free to tell me about your favorites as well!).
+      I've also been to 47 out of the 50 states, and hope to reach my goal of seeing all 50 very soon.</p>
+    <img src="myphoto.png" class="myphoto" style="display:block;margin-left:auto;margin-right:auto;width:50%;max-width:500px;padding:30px" class="w3-margin-top">
+
+    <div class="w3-panel w3-light-grey" style="border-left:8px solid #ccc!important">
+      <p><i>"Nobody ever got ready by waiting. You only get ready by starting.</i></p>
+      <p> - John C. Maxwell</p>
+    </div>
+    <!--<p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>-->
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">EXPERIENCE</span></h5>
+
+    <div class="w3-row w3-center w3-card w3-padding" style="background-color:#f1f1f1">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Projects');" id="myLink">
+        <div class="w3-col s6 tablink">Projects</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Positions');">
+        <div class="w3-col s6 tablink">Positions</div>
+      </a>
+    </div>
+
+    <div id="Projects" class="w3-container menu w3-padding-48 w3-card" style="background-color:#f1f1f1">
+      <h5>ItHasPockets</h5>
+      <p class="w3-text-grey">A fashion-themed website written in Django in which users can post photos of clothing, links to retailers, and other information</p><br>
+
+      <h5>HandReading</h5>
+      <p class="w3-text-grey">A Python project centered around machine learning which reads and analyzes photos of handwritten digits, classifies them, and outputs their classification</p><br>
+
+      <h5>Thunder</h5>
+      <p class="w3-text-grey">A classic dodge-the-obstacles game written with OpenFrameworks, in which the player can use various types of input (key presses, voice control, etc.) to fly their plane through a storm</p><br>
+
+      <h5>Catching Plagiarists</h5>
+      <p class="w3-text-grey">A java program that counts the number of n-contiguous-word phrases that any two essays have in common and produces information about how similar the essays are</p><br>
+
+      <h5>Adventure</h5>
+      <p class="w3-text-grey">A classic text based adventure game in which players have to navigate through a maze of rooms, complete tasks to find keys and unlock doors, and eventually reach their destination room</p>
+    </div>
+
+    <div id="Positions" class="w3-container menu w3-padding-48 w3-card" style="background-color:#f1f1f1">
+      <h5>Gir1 C0de, Co-President</h5>
+      <p class="w3-text-grey">Designed and presented weekly workshops for Gir1 C0de, a nonprofit for women in STEM. Workshops involved the use of sorting algorithms, dynamic programming problems, programming Arduino boards and Finch Robots, and other computer science related activities</p><br>
+
+      <h5>Barrington Robotics Club, President</h5>
+      <p class="w3-text-grey">Handled all aspects of club management, including designing building/coding challenges, giving tutorial presentations, recruiting new members, and troubleshooting technical issues</p><br>
+
+      <h5>FIRST Tech Challenge, Fundraising Coordinator and Notebook Manager</h5>
+      <p class="w3-text-grey">Solicited local businesses and raised $2200 of our $2000 goal to support our FTC Robotics team. Managed the Engineering Notebook, a detailed record of all team meetings, robot designs and plans, and daily progression</p><br>
+
+      <h5>Association for Computing Machinery, Member</h5>
+      <p class="w3-text-grey">Active involvement in ACM special interest groups, primarily SigPwny, the cybersecurity group. Subjects include reverse engineering, code injection, password cracking, operational security, etc.</p><br>
+
+      <h5>GE Healthcare Summer Program, Teacher</h5>
+      <p class="w3-text-grey">Developed a JavaScript web app, a spinoff of an app called Llama or Duck. This version, Brain or Plane, displayed photos of important women in STEM careers and photos of planes and required the user to hit the corresponding button in as little time as possible. Went to the University of Notre Dame and taught middle school girls the skills to code their own versions of the Brain or Plane app.</p><br>
+    </div>
+    <!-- <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;"> -->
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT ME</span></h5>
+    <p>Email me at: <a href="mailto:gcrobbins0@gmail.com" title="Email Grace" target="_blank" class="w3-hover-text-green">gcrobbins0@gmail.com</a></p>
+    <p>Check out my GitHub at: <a href="https://github.com/gracerobbins" title="Grace's GitHub" target="_blank" class="w3-hover-text-green">github.com/gracerobbins</a></p>
+    <p>Follow my social media: <a href='https://www.instagram.com/gracerobbins_/?hl=en' title="Grace's Instagram" target="_blank" class="w3-hover-text-green">Instagram</a>,  <a href='https://twitter.com/gracerobbins0' title="Grace's Twitter" target="_blank" class="w3-hover-text-green">Twitter</a></p>
+    <!-- <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p> -->
+    <p>Or use the form below to send me a message!</p>
+    
+        <form action="index.php" method="POST">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="sender"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Your email" required name="senderEmail"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="message" placeholder="What would you like to say?" required name="message"></p>
+      <p><button class="w3-button w3-black" type="submit" name="submit">SEND MESSAGE</button></p>
+    </form>
+    
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-16 w3-large">
+  <p>Thanks for reading!</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
