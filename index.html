@@ -528,7 +528,8 @@
                         <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(2);">Education</a></div>
                         <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(3);">Events</a></div>
                         <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(4);">Projects</a></div>
-                        <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(5);">Other</a></div>
+                        <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(5);">Writeups</a></div>
+                        <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(6);">Other</a></div>
                     </div>
                     <div class="single-service text-center mt-30">
                         <div class="service-icon">
@@ -729,19 +730,26 @@
         else if(cont_in == 3){
             x.className="lni-calendar";
             y.innerHTML="Events I've Been To";
-            z.innerHTML="<div align=\"left\"><h5>CSAW19</h5><p>Went with SIGPwny, participated in ATM hacking challenges and attended C2 talks.</p><br><h5>Cyphercon 4</h5><p>Also went with SIGPwny, participated in Cyphercon Capture The Con CTF, discovered race condition vulnerability in challenge infrastructure that allowed for point duplication. Team placed 6th (but could have placed first had I discovered the vulnerablity five minutes earlier)</p></div>";
+            z.innerHTML="<div align=\"left\"><h5>CSAW19</h5><p>Went with SIGPwny, participated in ATM hacking challenges and attended C2 talks.</p><br><h5>Cyphercon 4</h5><p>Also went with SIGPwny, participated in Cyphercon Capture The Con CTF, discovered race condition vulnerability in challenge infrastructure that allowed for point duplication. Team placed 6th (but could have placed first had I discovered the vulnerablity five minutes earlier)</p><br><h5>NANOG U, UIUC</h5><p>Attended day long Network Security event. Talks were given on DNS Security, Ddos prevention, OSINT, and the many internet governing bodies</p></div>";
         }
         else if(cont_in == 4){
             x.className="lni-code";
             y.innerHTML="Projects";
-            z.innerHTML="<div align=\"left\"><h5>Minimal Minimal Revolution</h5><p>I recreated the PC version of dance dance revolution, had much faster load times and higher framerates.</p>Download it <a href=\"Min-Min-Rev.zip\">here</a><br><br><h5>A to B</h5><p>Designed a 3D first person platformer during a 1 week game jam at NSLC. Won best game and highest quality game.</p>More info <a href=\"https://github.com/Thomas-Quig/nslc-game\">here</a><br><br><h5>Jackson Recon</h5><p>Created a fake person and spread their profiles around the internet, this was designed for an Open Source Intelligence (Reconnisance) meeting for SIGPwny</p><br><h5>Burner Tab</h5><p>Currently researching the viability of creating a privacy extension in Google Chrome (Similar to burner phones)</p><p>More info to come (2019)</p></div>";
+            z.innerHTML="<div align=\"left\"><h5>Minimal Minimal Revolution</h5><p>I recreated the PC version of dance dance revolution, had much faster load times and higher framerates. (Nov-Dec 2018)</p>Download it <a href=\"Min-Min-Rev.zip\">here</a><br><br><h5>A to B</h5><p>Designed a 3D first person platformer during a 1 week game jam at NSLC. Won best game and highest quality game. (July 2017)</p>More info <a href=\"https://github.com/Thomas-Quig/nslc-game\">here</a><br><br><h5>Jackson Recon</h5><p>Created a fake person and spread their profiles around the internet, this was designed for an Open Source Intelligence (OSINT) meeting for SIGPwny (April 2019). </p>Link to Twitter Page <a href=\"https://twitter.com/ItsYaBoiRecon\">here</a><p></p><br><h5>Burner Tab</h5><p>Currently researching the viability of creating a privacy extension in Google Chrome (Similar to burner phones)</p><p>More info to come (2019)</p></div>";
         }
         else if(cont_in == 5){
+            x.className="lni-write";
+            y.innerHTML="Writeups";
+            z.innerHTML="<div align=\"left\"><h5>Title Of Chal</h5><p>Description</p>Link <a href=writeups/writeup.md>here</a><br><br><h5>Title Of Chal</h5><p>Description</p>Link <a href=writeups/writeup.md>here</a><br><br><h5>Title Of Chal</h5><p>Description</p>Link <a href=writeups/writeup.md>here</a><br><br><h5>Title Of Chal</h5><p>Description</p>Link <a href=writeups/writeup.md>here</a><br><br>";
+        }
+        else if(cont_in == 6)
+        {
             x.className="lni-emoji-tounge";
             y.innerHTML="Other Fun Things";
-            z.innerHTML="<div align=\"left\"><h5>Active Subreddits</h5><p>r/abruptchaos, r/antiMLM, r/battlecats, r/borderlands2 (and 3), r/chaoticgood, r/fifthworldproblems, r/ProgrammingHumor r/Getdownmrpresident, r/PunPatrol, r/softwaregore, r/Tiresaretheenemy, r/UIUC, and r/Zelda</p><br><h5>Favorites</h5><p>Food: Sushi</p><p>Place: Pentwater, Michigan</p><p>Movie: Truman Show</p><p>Video Game: Borderlands 2(3 Is really good but I have nostaliga for 2)</p><p>Data Type: float ***</p><br><h5>Least Favorites</h5><p>Not much really</p><br><h5>Yeet?</h5><p>yeet</p></div>";
+            z.innerHTML="<div align=\"left\"><h5>Active Subreddits</h5><p>r/abruptchaos, r/antiMLM, r/battlecats, r/borderlands2 (and 3), r/chaoticgood, r/fifthworldproblems, r/ProgrammingHumor r/Getdownmrpresident, r/PunPatrol, r/softwaregore, r/Tiresaretheenemy, r/UIUC, and r/Zelda</p><br><h5>Favorites</h5><p>Food: Sushi</p><p>Place: Pentwater, Michigan</p><p>Movie: Truman Show</p><p>Video Game: Borderlands 2(3 Is really good but I have nostaliga for 2)</p><p>Data Type: float ***</p><br><h5>Least Favorites</h5><p>Not much really</p><br><h5>Smash Bros Mains</h5><p>Meele: Kirby, Puff</p><p>Brawl: Sonic, Ike</p><p>Smash 4: Ike, Kirby, Cpt Falcon</p><p>Ultimate: Ike, Plant, Hero, Snake</p><p>Really I'm just an Ike main</p><br><h5>Yeet?</h5><p>yeet</p></div>";
         }
-        else{
+        else
+        {
             x.className="lni-question-circle";
             y.innerHTML="Congratulations you found this!";
             z.innerHTML="<div align=\"left\">That means you looked in the source. <br>If you got this to appear in the actual site congrats you used the console successfully. Have a good day :)</div>";
