@@ -77,9 +77,10 @@
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="#about">About</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#work">Portfolio</a></li>
-                                    <li class="nav-item"><a class="page-scroll" href="#blog">Experience</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#work">Featured Projects</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="#experience">Experience</a></li>
                                     <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
+                                    <li class="nav-item"><a class="page-scroll" href="resume.html">Resume</a></li>
                                 </ul>
                             </div> <!-- navbar collapse -->
                         </nav> <!-- navbar -->
@@ -127,6 +128,7 @@
                             <h1 class="title">Thomas Quig</h1>
                             <p>A Computer Science Student & Cybersecurity Researcher</p>
                             <a class="main-btn" href="#work">See What I've Worked On</a>
+                            <a class="main-btn" href="#experience" onclick="changeText(1);">See Where I've Worked</a>
                         </div> <!-- header content right -->
                     </div>
                     <div class="col-lg-6 offset-xl-1">
@@ -168,12 +170,6 @@
                 </div>
             </div> <!-- row -->
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="about-content mt-50">
-                        <h5 class="about-title">Hello! My name is Thomas Quig</h5>
-                        <p>I am in my second year of computer science at the University of Illinois Urbana Champaign with a strong focus on Information Security and Virtual Reality.<br><br>Outside of academics, I am very involved in my school's undergraduate cybersecurity research group SIGPwny. I enjoy reverse engineering and am hilariously good at breaking websites unintentionally. I spend time with my friends playing all sorts of games (both tabletop and video). I love to play water polo, just not at 5 in the morning. I listen to almost every type of music, from classical to ear-breaking dubstep (and everything in between).</p>
-                    </div> <!-- about content -->
-                </div>
                 <div class="col-xl-5 offset-xl-1 col-lg-6">
                     <div class="about-skills pt-25">
                         <div class="skill-item mt-25">
@@ -261,18 +257,24 @@
                                 <h6 class="skill-title">Python</h6>
                                 <div class="skill-percentage">
                                     <div class="count-box counted">
-                                        <span class="counter">30</span>
+                                        <span class="counter">40</span>
                                     </div>
                                     %
                                 </div>
                             </div>
                             <div class="skill-bar">
                                 <div class="bar-inner">
-                                    <div class="bar progress-line" data-width="30"></div>
+                                    <div class="bar progress-line" data-width="40"></div>
                                 </div>
                             </div>
                         </div> <!-- skill item -->
                     </div> <!-- about skills -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content mt-50">
+                        <h5 class="about-title">Hello! My name is Thomas Quig</h5>
+                        <p>I am in my second year of computer science at the University of Illinois Urbana Champaign with a strong focus on Information Security and Virtual Reality.<br><br>Outside of academics, I am very involved in my school's undergraduate cybersecurity research group SIGPwny. I enjoy reverse engineering and am hilariously good at breaking websites unintentionally. I spend time with my friends playing all sorts of games (both tabletop and video). I love to play water polo, just not at 5 in the morning. I listen to almost every type of music, from classical to ear-breaking dubstep (and everything in between).</p>
+                    </div> <!-- about content -->
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
@@ -389,7 +391,7 @@
                     <div class="section-title pb-25">
                         <h2 class="title">My Works</h2>
                         <p>I've worked on some cool stuff, and I will continue to work on cool stuff!</p>
-                        <p>For more information about these things and not simply links to them, see <a href="#blog">Experience</a></p>
+                        <p>For more information about these things and not simply links to them, see <a href="#experience">Experience</a></p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -401,10 +403,10 @@
                         </div>
                         <div class="work-overlay">
                             <div class="work-content">
-                                <h3 class="work-title">Minimal Minimal Revolution</h3>
+                                <h3 class="work-title">TableTop WorldBuilder</h3>
                                 <ul>
                                     <li><a class="image-popup" href="assets/images/work/w-1.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="#blog" onclick="changeText(4);"><i class="lni-link"></i></a></li>
+                                    <li><a href="http://tabletopworldbuilder.com" onclick="changeText(4);"><i class="lni-link"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -417,14 +419,14 @@
                         </div>
                         <div class="work-overlay">
                             <div class="work-content">
-                                <h3 class="work-title">A To B (NSLC)</h3>
+                                <h3 class="work-title">Crytic Upgradeability Integration</h3>
                                 <ul>
                                     <li><a class="image-popup" href="assets/images/work/w-2.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="#blog" onclick="changeText(4);"><i class="lni-link"></i></a></li>
+                                    <li><a href="https://crytic.io"><i class="lni-link"></i></a></li>
                                 </ul>
                             </div>
                         </div>
-                    </div> <!-- single work -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-work text-center mt-30">
@@ -433,30 +435,30 @@
                         </div>
                         <div class="work-overlay">
                             <div class="work-content">
-                                <h3 class="work-title">Jackson Recon</h3>
+                                <h3 class="work-title">Minimal Minimal Revolution</h3>
                                 <ul>
                                     <li><a class="image-popup" href="assets/images/work/w-3.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="https://twitter.com/ItsYaBoiRecon"><i class="lni-link"></i></a></li>
+                                    <li><a href="#experience" onclick="changeText(4);"><i class="lni-link"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div> <!-- single work -->
                 </div>
-                <!--<div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-work text-center mt-30">
                         <div class="work-image">
                             <img src="assets/images/work/w-4.jpg" alt="work">
                         </div>
                         <div class="work-overlay">
                             <div class="work-content">
-                                <h3 class="work-title">Still Building Website</h3>
+                                <h3 class="work-title">A To B (NSLC)</h3>
                                 <ul>
                                     <li><a class="image-popup" href="assets/images/work/w-4.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="javascript:void(0);" onclick="inProgressAlert();"><i class="lni-link"></i></a></li>
+                                    <li><a href="#experience"><i class="lni-link"></i></a></li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> <!-- single work -->
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-work text-center mt-30">
@@ -465,16 +467,16 @@
                         </div>
                         <div class="work-overlay">
                             <div class="work-content">
-                                <h3 class="work-title">Still Building Website</h3>
+                                <h3 class="work-title">Jackson Recon</h3>
                                 <ul>
                                     <li><a class="image-popup" href="assets/images/work/w-5.jpg"><i class="lni-plus"></i></a></li>
-                                    <li><a href="javascript:void(0);" onclick="inProgressAlert();"><i class="lni-link"></i></a></li>
+                                    <li><a href="javascript:void(0);" onclick="https://twitter.com/ItsYaBoiRecon"><i class="lni-link"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <!--<div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-work text-center mt-30">
                         <div class="work-image">
                             <img src="assets/images/work/w-6.jpg" alt="work">
@@ -495,17 +497,17 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="work-more text-center mt-50">
-                        <a class="main-btn" href="https://github.com/Thomas-Quig">see my github</a>
+                        <a class="main-btn" href="https://github.com/Thomas-Quig">visit my github</a>
                     </div> <!-- work more -->
                 </div>
                 <div class="col-lg-4">
                     <div class="work-more text-center mt-50">
-                        <a class="main-btn" href="#blog" onclick="changeText(4)">more projects</a>
+                        <a class="main-btn" href="#experience" onclick="changeText(4)">more projects</a>
                     </div> <!-- work more -->
                 </div>
                 <div class="col-lg-4">
                     <div class="work-more text-center mt-50">
-                        <a class="main-btn" href="#contact" onclick="changeText(4)">Hire me</a>
+                        <a class="main-btn" href="#contact">Hire me</a>
                     </div> <!-- work more -->
                 </div>
             </div> <!-- row -->
@@ -515,20 +517,23 @@
 
     <!--====== BLOG PART START ======-->
 
-    <section id="blog" class="blog-area pt-125 pb-130">
+    <section id="experience" class="blog-area pt-125 pb-130">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center pb-25">
                         <h2 class="title">Experience</h2>
-                        <p>Read Up on all the things I have worked on</p>
+                        <p>Read Up on all the things I have worked on, know, and like + places I've been.</p>
                     </div> <!-- section title -->
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(1);">Positions</a></div>
                         <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(2);">Education</a></div>
-                        <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(3);">Events</a></div>
                         <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(4);">Projects</a></div>
-                        <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(5);">Writeups</a></div>
+                    </div>
+                    <br>
+                    <div class="row justify-content-center">
+                        <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(5);">Skills</a></div>
+                        <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(3);">Events</a></div>
                         <div class="column"><a class="main-btn" href="javascript:void(0);" onclick="changeText(6);">Other</a></div>
                     </div>
                     <div class="single-service text-center mt-30">
@@ -640,9 +645,8 @@
                             <a href="index.html">
                                 <img src="assets/images/logo-2.png" alt="Logo">
                             </a>
-                            <p class="mt-">This website is an in progress, if you see any issues please email me. I am also just one human, I don't have infinite time and dont
-                            have the time to add everything at once. I have more super cool things that I've done/can do, I just need more time to add it &lt;3</p>
-                            <p class="mt-">Thank you for reading everything, I hope you found this website informative. Please dont hesitate to reach out!</p>
+                            <p class="mt-">This website is an in progress, if you see any issues please email me. I am also just one human, I don't have infinite time and don't have the time to add everything at once. I have more super cool things that I've done/can do, I just need more time to add it &lt;3</p>
+                            <p class="mt-">Thank you for reading everything, I hope you found this website informative. Please dont hesitate to reach out! Also hire me :)</p>
                             <ul>
                                 <li><a href="https://twitter.com/Thomas_Quig"><i class="lni-twitter-original"></i></a></li>
                                 <li><a href="https://github.com/Thomas-Quig/"><i class="lni-github"></i></a></li>
@@ -720,27 +724,27 @@
         if(cont_in == 1){
             x.className="lni-seo-consulting";
             y.innerHTML="Positions I've Had";
-            z.innerHTML="<div align=\"left\"><h5>Illini Tech Services- Onsite Consultant</h5>\r<p>Work with professionals to provide swift and successful solutions to any technological problems that may arise (Sep 2019-Present) </p><br><h5>SIGPwny- Officer</h5><p>I am an officer in my campuses Cybersecurity interest group SIGPwny. As an officer I host meetings, create challenges for our year round CTF (Aug 2018-Present)</p><br><h5>Egg Harbor Cafe- Busser/Dishwasher</h5><p>Performed intensive activity in and handle a high stress, time-sensitive, customer service-oriented environment. (Jun-Aug 2018)</p></div>";
+            z.innerHTML="<div align=\"left\"><h5>Trail Of Bits- Winter Intern</h5><p>Worked with the Trail of Bits team on Crytic: an Etherium security tool. Integrated Smart Contract upgradeability checks into Crytic. Full stack development experience that included React, SQL, Docker, Python, amongst other languages/tools (Winter 2019)</p><br><h5>Illini Tech Services- Onsite Consultant</h5>\r<p>Work with professionals to provide swift and successful solutions to any technological problems that may arise (Sep 2019-Present) </p><br><h5>SIGPwny- Officer</h5><p>I am an officer in my campuses Cybersecurity interest group SIGPwny. As an officer I host meetings, create challenges for our year round CTF (Aug 2018-Present)</p><br><h5>Egg Harbor Cafe- Busser/Dishwasher</h5><p>Performed intensive activity in and handle a high stress, time-sensitive, customer service-oriented environment. (Jun-Aug 2018)</p><h5>Preloaded- Intern</h5><p>Developed a simple version of Sokoban (crate game) in a week as an example project to be shown to interview candidates. (June 2016)</p></div>";
         }
         else if(cont_in == 2){
             x.className="lni-pencil-alt";
             y.innerHTML="Education";
-            z.innerHTML="<div align=\"left\"><h5>College</h5><p>University of Illinois, Urbana Champaign</p><p>Major: Computer Science</p><p>GPA: 3.47/4.00</p><br><h5>High School</h5><p>Barrington High School</p><p>GPA: Nobody Cares I'm a Sophomore :P (4.35)</p><p>Awards: Outstanding Achievement in Computer Science<p><br></div>";
+            z.innerHTML="<div align=\"left\"><h5>College</h5><p>University of Illinois, Urbana Champaign</p><p>Degree: Bachelor of Science, Computer Science</p><p>GPA: 3.47/4.00</p><br><h5>High School</h5><p>Barrington High School</p><p>GPA: Nobody Cares I'm a Sophomore :P (4.35)</p><p>Awards: Outstanding Achievement in Computer Science<p><br><h5>Specific Courses I've Taken (If you really want that information)</h5><b>Completed</b><p>CS 126 (Software Development Studio, Java/C++), CS 173 (Discrete Structures), CS 210 (Ethics In CS), CS 225 (Data Structures, C++), CS 233 (Computer Architecture, Verilog/MIPS), CS 241 (Systems Programming, C), CS 361 (Prob/Stat in CS, R/Python), CS 498-VR (Virtual Reality, C#)</p><b>This Semester (Sp 20)</b><p>CS 438 (Communications Networking), CS 461 (Security), CS 357 (Numerical Methods), BTW 250 (Business Technical Writing)</p></div>";
         }
         else if(cont_in == 3){
             x.className="lni-calendar";
-            y.innerHTML="Events I've Been To";
-            z.innerHTML="<div align=\"left\"><h5>CSAW19</h5><p>Went with SIGPwny, participated in ATM hacking challenges and attended C2 talks.</p><br><h5>Cyphercon 4</h5><p>Also went with SIGPwny, participated in Cyphercon Capture The Con CTF, discovered race condition vulnerability in challenge infrastructure that allowed for point duplication. Team placed 6th (but could have placed first had I discovered the vulnerablity five minutes earlier)</p><br><h5>NANOG U, UIUC</h5><p>Attended day long Network Security event. Talks were given on DNS Security, Ddos prevention, OSINT, and the many internet governing bodies</p></div>";
+            y.innerHTML="Events (That I've Been To)";
+            z.innerHTML="<div align=\"left\"><h5>CSAW19</h5><p>Went with SIGPwny, participated in ATM hacking challenges and attended C2 talks on Quantum Securit and Intentional Kernel Faulting (among others).</p><br><h5>Cyphercon 4</h5><p>Also went with SIGPwny, participated in Cyphercon Capture The Con CTF, discovered race condition vulnerability in challenge infrastructure that allowed for point duplication. Team placed 6th (but could have placed first had I discovered the vulnerablity five minutes earlier)</p><br><h5>NANOG U, UIUC</h5><p>Attended day long Network Security event. Talks were given on DNS Security, DDOS prevention, OSINT, and the many internet regulation and registration organizations</p></div>";
         }
         else if(cont_in == 4){
             x.className="lni-code";
             y.innerHTML="Projects";
-            z.innerHTML="<div align=\"left\"><h5>Minimal Minimal Revolution</h5><p>I recreated the PC version of dance dance revolution, had much faster load times and higher framerates. (Nov-Dec 2018)</p>Download it <a href=\"Min-Min-Rev.zip\">here</a><br><br><h5>A to B</h5><p>Designed a 3D first person platformer during a 1 week game jam at NSLC. Won best game and highest quality game. (July 2017)</p>More info <a href=\"https://github.com/Thomas-Quig/nslc-game\">here</a><br><br><h5>Jackson Recon</h5><p>Created a fake person and spread their profiles around the internet, this was designed for an Open Source Intelligence (OSINT) meeting for SIGPwny (April 2019). </p>Link to Twitter Page <a href=\"https://twitter.com/ItsYaBoiRecon\">here</a><p></p><br><h5>Burner Tab</h5><p>Currently researching the viability of creating a privacy extension in Google Chrome (Similar to burner phones)</p><p>More info to come (2019)</p></div>";
+            z.innerHTML="<div align=\"left\"><h5>TableTop WorldBuilder</h5><p>Led a team of 5 and designed a Virtual Reality map maker akin to Mario Maker. Fully integrated with Oculus VR and expected to go onto the Oculus Store Spring 2020. (Fall 2019)</p> Website <a href=\"http://tabletopworldbuilder.com\">here</a><br><br><h5>Minimal Minimal Revolution</h5><p>I recreated the PC version of dance dance revolution, had much faster load times and higher framerates. (Nov-Dec 2018)</p>Download it <a href=\"Min-Min-Rev.zip\">here</a><br><br><h5>A to B</h5><p>Designed a 3D first person platformer during a 1 week game jam at NSLC. Won best game and highest quality game. (July 2017)</p>More info <a href=\"https://github.com/Thomas-Quig/nslc-game\">here</a><br><br><h5>Jackson Recon</h5><p>Created a fake person and spread their profiles around the internet, this was designed for an Open Source Intelligence (OSINT) meeting for SIGPwny (April 2019). </p>Link to Twitter Page <a href=\"https://twitter.com/ItsYaBoiRecon\">here</a><p></p><br><h5>Burner Tab</h5><p>Currently developing  a privacy extension in Google Chrome (Similar to burner phones)</p><p>More info to come (2019)</p></div>";
         }
         else if(cont_in == 5){
             x.className="lni-write";
-            y.innerHTML="Writeups";
-            z.innerHTML="<div align=\"left\"><h5>Title Of Chal</h5><p>Description</p>Link <a href=writeups/writeup.md>here</a><br><br><h5>Title Of Chal</h5><p>Description</p>Link <a href=writeups/writeup.md>here</a><br><br><h5>Title Of Chal</h5><p>Description</p>Link <a href=writeups/writeup.md>here</a><br><br><h5>Title Of Chal</h5><p>Description</p>Link <a href=writeups/writeup.md>here</a><br><br>";
+            y.innerHTML="Skills";
+            z.innerHTML="<div align=\"left\"><h5>Programming Languages</h5><p>Java: 3 Years, C++: 1.5 Years, C# 2.5 Years, C: 6 Months, Python: 3 Months, R: 6 Months, Javascript: 3 Months</p><br><h5>Infosec Tools</h5><p>Binary Ninja, Ghidra, Maltego, Wireshark, Outguess, Google Dorking</p><br><h5>Other Skills</h5><p>Strong Public Speaker, Knowledge in full Microsoft Office Suite, Web Design, Graphic Design, Minecraft Map Building, can cook minute rice in 58 seconds, can always plug USB in correctly on first try.</p><br>";
         }
         else if(cont_in == 6)
         {
@@ -752,7 +756,7 @@
         {
             x.className="lni-question-circle";
             y.innerHTML="Congratulations you found this!";
-            z.innerHTML="<div align=\"left\">That means you looked in the source. <br>If you got this to appear in the actual site congrats you used the console successfully. Have a good day :)</div>";
+            z.innerHTML="<div align=\"left\">That means you looked in the source. <br>If you got this to appear in the actual site congrats you used the console successfully. Have a good day :) flag{mU5t_b3_us3fu1_s0m3wHer3}</div>";
         }
     }
     function inProgressAlert()
