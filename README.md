@@ -1,2 +1,2 @@
 # Thomas-Quig.github.io
-My Personal Website
+This is my personal website, good for you for looking at the actual repo I suppose.
