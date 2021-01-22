@@ -1,0 +1,52 @@
+<head>
+    <body>
+        This is <b>R</b>andom <b>E</b>quals <b>F</b>unny.<br>
+        It is an absolutely horrible thing that I made for a friend in like an hour.<br><br>
+        <div style = "border:solid;width:150px">
+            <div style = "margin-left:15px;">
+                <b>Controls</b><br>
+                <button type="button" style="margin-bottom:5px" onclick="start()">Start</button><br>
+                <button type="button" onclick="stop()">Stop</button><br><br>
+                <b>Volume</b><br>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="volume">
+                  </div>
+            </div> 
+        </div><br><br>
+        <div style="border:solid;width:225;">
+            <div style = "margin-left:10px;">
+                <b>FAQ</b><br>
+                <i>I want more features!</i><br>
+                No, shut up <br><br>
+                <i>Why did you make this?</i><br>
+                AAAAAAAAAAAAAAAAAA    
+            </div>    
+        </div><br>
+        
+    </body>
+</head>
+
+
+<script>
+    var started = false
+    var volume = document.getElementById("volume").value;
+    
+    function start(){
+        started = true;
+    }
+    function stop(){
+        started = false;
+    }
+    var base = './assets/sounds/'
+    var numSounds = 6
+    window.setInterval(function () {
+        var path = base + (parseInt(Math.random() * numSounds,10) + 1).toString() + ".mp3";
+        var a = new Audio(path)
+        a.volume = volume / 100.0;
+        if(started){
+            volume = document.getElementById("volume").value;
+            a.play();
+        }
+       
+    }, Math.random() * 10000)
+</script>
