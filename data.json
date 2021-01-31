@@ -29,14 +29,75 @@
             ]
         }
     },
-    "experience":[
+    "experience":{
+        "SIGPwny":
         {
-            "start":"",
-            "end":"",
-            "position":"",
+            "start":"OCT 2018",
+            "end":"PRESENT",
+            "position":"President",
             "relevant-skills":[
-                
+                "Computer Security - Various",
+                "Organization Management - Various",
+                "Server Management - AWS, ESXi"
+            ]
+        },
+        "RTM-Engineering":
+        {
+            "start":"JUN 2020",
+            "end":"PRESENT",
+            "position":"IT and Security",
+            "relevant-skills":[
+                "Device Troubleshooting",
+                "Penetration Testing",
+                "Platform Management - AD, Office365, PDQ, ESXi"
+            ]
+        },
+        "Trail-Of-Bits":
+        {
+            "start":"DEC 2019",
+            "end":"JAN 2020",
+            "position":"Winter Intern",
+            "relevant-skills":[
+                "React Redux",
+                "Python",
+                "SQLAlchemy"
+            ]
+        },
+        "Tech-Services":
+        {
+            "start":"SEP 2019",
+            "end":"PRESENT",
+            "position":"OnSite Consultant",
+            "relevant-skills":[
+                "Device Troubleshooting",
+                "Application Troubleshooting",
+                "Tech Support - General"
             ]
         }
-    ]
+    },
+    "skills":{
+        "technical":[
+            "C","C++","C#",
+            "Java","Javascript","ReactJS",
+            "Python","Haskell", "TI-BASIC",
+            "Computer Security - Various", 
+            "OSINT", "Maltego", "Ghidra",
+            "Network Security", "Wireshark",
+            "AWS","AD Admin","Office365 Admin",
+            "HTML", "Web Design", "Video Editing"
+        ],
+        "professional":[
+            "Team Management", "Profesisonal/Academic Talk Creation and Presentaiton", 
+            "Conflict Resolution", "Event Management", "Budgeting", "Budget Keeping",
+            "Public Speaking", "Active Ideation"
+        ],
+        "miscalleneous":[
+            "Community Management (Discord)", "Owns 6 of the 7 Jackbox Games", "Minecraft Map Development & Programming"
+        ]
+    },
+    "contact":{
+        "phone":"224-633-3115",
+        "email":"thomasquig.dev@gmail.com",
+        "twitter":"@Thomas_Quig"
+    }
 }
