@@ -1,0 +1,42 @@
+{
+    "basic-information": {
+    "name": "Thomas Quig",
+    "age": 22,
+    "field": "Computer Security"
+    },
+    "educaiton": {
+        "UIUC":{
+            "location":"Illinois",
+            "major":"Comuter Science",
+            "year":3,
+            "expected":2022,
+            "gpa":3.57,
+            "relevant-classes":
+            [
+                { "name":"Computer Security 1", "value":"CS461" },
+                { "name":"Computer Security 2", "value":"CS463" },
+                { "name":"Advanced Computer Security", "value":"CS563" },
+                { "name":"Communications Networking", "value":"CS438" },
+                { "name":"Wireless Networking", "value":"CS538" },
+                { "name":"Programming Languages & Compilers", "value":"CS421" },
+                { "name":"Algorithms & Models of Computation", "value":"CS374" },
+                { "name":"Systems Programming", "value":"CS241" },
+                { "name":"Probability & Statistics in CS", "value":"CS361" },
+                { "name":"Numerical Methods", "value":"CS357" },
+                { "name":"Data Structures", "value":"CS225" },
+                { "name":"Computer Architecture", "value":"CS233" },
+                { "name":"Virtual Reality", "value":"CS498-VR" }
+            ]
+        }
+    },
+    "experience":[
+        {
+            "start":"",
+            "end":"",
+            "position":"",
+            "relevant-skills":[
+                
+            ]
+        }
+    ]
+}
