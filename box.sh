@@ -4,8 +4,8 @@
 
 # Setup Bash Environment
 cd ~
-curl https://quig.dev/fs/syscfg/.bashrc >> .bashrc
-curl https://quig.dev/fs/syscfg/.vimrc >> .vimrc
+curl -L https://quig.dev/fs/syscfg/.bashrc >> .bashrc
+curl -L https://quig.dev/fs/syscfg/.vimrc >> .vimrc
 
 # Make relevant Folders
 mkdir Developer
