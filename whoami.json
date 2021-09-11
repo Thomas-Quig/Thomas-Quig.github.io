@@ -8,9 +8,9 @@
         "UIUC":{
             "location":"Illinois",
             "major":"Comuter Science",
-            "year":3,
+            "year":4,
             "expected":2022,
-            "gpa":3.57,
+            "gpa":3.60,
             "relevant-classes":
             [
                 { "name":"Computer Security 1", "value":"CS461" },
@@ -41,10 +41,21 @@
                 "Server Management - AWS, ESXi"
             ]
         },
+        "Plante Moran":
+        {
+            "start":"JUN 2021",
+            "end":"PRESENT",
+            "position":"Cybersecurity Consultant Intern",
+            "relevant-skills":[
+                "Windows Environment Penetration Testing - Internal & External",
+                "Report Creation and Automation",
+                "Social Engineering"
+            ]
+        },
         "RTM-Engineering":
         {
             "start":"JUN 2020",
-            "end":"PRESENT",
+            "end":"JUN 2021",
             "position":"IT and Security",
             "relevant-skills":[
                 "Device Troubleshooting",
@@ -58,7 +69,7 @@
             "end":"JAN 2020",
             "position":"Winter Intern",
             "relevant-skills":[
-                "React Redux",
+                "Ethereum",
                 "Python",
                 "SQLAlchemy"
             ]
@@ -98,6 +109,7 @@
     "contact":{
         "phone":"224-633-3115",
         "email":"thomasquig.dev@gmail.com",
-        "twitter":"@Thomas_Quig"
+        "twitter":"@Thomas_Quig",
+        "github":"Thomas-Quig"
     }
 }
