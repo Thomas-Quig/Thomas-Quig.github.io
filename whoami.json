@@ -25,7 +25,10 @@
                 { "name":"Numerical Methods", "value":"CS357" },
                 { "name":"Data Structures", "value":"CS225" },
                 { "name":"Computer Architecture", "value":"CS233" },
-                { "name":"Virtual Reality", "value":"CS498-VR" }
+                { "name":"Virtual Reality", "value":"CS498-VR" },
+                { "name":"Inclusivity in Cyber Security", "value":"CS598-CC" },
+                { "name":"Law and Policy in Computing", "value":"CS498-CR" },
+                { "name":"Game Development", "value":"CS498-GD" }
             ]
         }
     },
@@ -41,10 +44,21 @@
                 "Server Management - AWS, ESXi"
             ]
         },
+        "Sandia National Labratory":
+        {
+            "start":"JUN 2022",
+            "end":"PRESENT",
+            "position":"TITANS Summer Program Cybersecurity Intern",
+            "relevant-skills":[
+                "UNKNOWN",
+                "UNKNOWN",
+                "UNKNOWN"
+            ]
+        },
         "Plante Moran":
         {
             "start":"JUN 2021",
-            "end":"PRESENT",
+            "end":"MAY 2022",
             "position":"Cybersecurity Consultant Intern",
             "relevant-skills":[
                 "Windows Environment Penetration Testing - Internal & External",
@@ -105,6 +119,51 @@
         "miscalleneous":[
             "Community Management (Discord)", "Owns 6 of the 7 Jackbox Games", "Minecraft Map Development & Programming"
         ]
+    },
+    "projects":{
+        "whereami":
+        {
+            "name":"",
+            "date":"",
+            "description":"",
+            "link":""
+        },
+        "llss":
+        {
+            "name":"",
+            "date":"",
+            "description":"",
+            "link":""
+        },
+        "naev":
+        {
+            "name":"",
+            "date":"",
+            "description":"",
+            "link":""
+        },
+        "gftt":
+        {
+            "name":"",
+            "date":"",
+            "description":"",
+            "link":""
+        },
+        "ttwb":
+        {
+            "name":"",
+            "date":"",
+            "description":"",
+            "link":""
+        },
+        "crytic":
+        {
+            "name":"",
+            "date":"",
+            "description":"",
+            "link":""
+        }
+        
     },
     "contact":{
         "phone":"224-633-3115",
