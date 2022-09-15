@@ -17,7 +17,7 @@
                 { "name":"Computer Security 2", "value":"CS463" },
                 { "name":"Advanced Computer Security", "value":"CS563" },
                 { "name":"Communications Networking", "value":"CS438" },
-                { "name":"Wireless Networking", "value":"CS538" },
+                { "name":"Wireless Networking", "value":"CS439" },
                 { "name":"Programming Languages & Compilers", "value":"CS421" },
                 { "name":"Algorithms & Models of Computation", "value":"CS374" },
                 { "name":"Systems Programming", "value":"CS241" },
@@ -28,7 +28,12 @@
                 { "name":"Virtual Reality", "value":"CS498-VR" },
                 { "name":"Inclusivity in Cyber Security", "value":"CS598-CC" },
                 { "name":"Law and Policy in Computing", "value":"CS498-CR" },
-                { "name":"Game Development", "value":"CS498-GD" }
+                { "name":"Game Development", "value":"CS498-GD" },
+                { "name":"Embedded Systems", "value":"CS431" },
+                { "name":"Home IoT Security and Privacy", "value":"CS598-CG" },
+                { "name":"Social Computing", "value":"CS598-SC" },
+                { "name":"Security and Privacy in ML/AI", "value":"CS562" },
+                { "name":"Advanced Topics in IoT", "value":"CS537" }
             ]
         }
     },
@@ -37,22 +42,22 @@
         {
             "start":"OCT 2018",
             "end":"PRESENT",
-            "position":"President",
+            "position":"President Emeritus",
             "relevant-skills":[
                 "Computer Security - Various",
                 "Organization Management - Various",
                 "Server Management - AWS, ESXi"
             ]
         },
-        "Sandia National Labratory":
+        "REDACTED EMPLOYER":
         {
             "start":"JUN 2022",
             "end":"PRESENT",
-            "position":"TITANS Summer Program Cybersecurity Intern",
+            "position":"Summer Graduate Cybersecurity Intern",
             "relevant-skills":[
-                "UNKNOWN",
-                "UNKNOWN",
-                "UNKNOWN"
+                "Deep Learning",
+                "Network Simulation",
+                "Technical Speech and Writing"
             ]
         },
         "Plante Moran":
@@ -121,47 +126,47 @@
         ]
     },
     "projects":{
+        "milmic":
+        {
+            "name":"Militant Microcultures",
+            "date":"SP2022",
+            "description":"Social computing analysis of 750k tweets from high-activity fangroups",
+            "link":"https://milmic.page"
+        },
         "whereami":
         {
-            "name":"",
-            "date":"",
-            "description":"",
-            "link":""
+            "name":"Where Am I",
+            "date":"FA2021",
+            "description":"User-focused survey of 76 applications for location sharing activity",
+            "link":"https://whereami.page"
         },
         "llss":
         {
-            "name":"",
-            "date":"",
-            "description":"",
-            "link":""
-        },
-        "naev":
-        {
-            "name":"",
-            "date":"",
-            "description":"",
-            "link":""
+            "name":"Link Layer Secure Shuffle",
+            "date":"FA2020",
+            "description":"Link layer moving target defense for wireless ad-hoc networks",
+            "link":"https://llss.page"
         },
         "gftt":
         {
-            "name":"",
-            "date":"",
-            "description":"",
-            "link":""
+            "name":"Gunning For The Top",
+            "date":"FA2021",
+            "description":"Unreal Engine 4 video game platformer in a similar style to 'Getting Over it' by Bennett Foddy",
+            "link":"https://thomasquig.itch.io/gftt"
+        },
+        "naev":
+        {
+            "name":"Nonlinear Automatic Equivalence Verification",
+            "date":"SP2021",
+            "description":"Package manager verification feature set and experimentation",
+            "link":"https://naev.page"
         },
         "ttwb":
         {
-            "name":"",
-            "date":"",
-            "description":"",
-            "link":""
-        },
-        "crytic":
-        {
-            "name":"",
-            "date":"",
-            "description":"",
-            "link":""
+            "name":"TableTop WorldBuilder",
+            "date":"FA2019",
+            "description":"Virtual Reality fusion of Mario Maker and Minecraft",
+            "link":"https://cs498vr.cs.illinois.edu/projects/FA19-TableTop_WorldBuilder.html"
         }
         
     },
