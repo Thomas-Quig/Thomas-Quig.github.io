@@ -1,7 +1,0 @@
-Why are you here...
-This is a static HTML website with no user input...
-
-If you somehow found a vulnerability, email thomasquig.dev@gmail.com I check it every 24H
-
-sigpwny{th1s_sh0u1d_b3_m0r3_w3l7_kn0wn}
-
